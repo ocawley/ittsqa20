@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://www.movies-at.ie/index.php?__site=M-DUNDRUM" />
+<link rel="selenium.base" href="http://www.anpost.ie/AnPost/" />
 <title>x00107570-Testcase1</title>
 </head>
 <body>
@@ -13,48 +13,43 @@
 </thead><tbody>
 <tr>
 	<td>open</td>
-	<td>/index.php?__site=M-DUNDRUM</td>
+	<td>/AnPost/</td>
 	<td></td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>css=#staff-thumbnail &gt; a[title=&quot;Interstellar&quot;] &gt; img[alt=&quot;Interstellar&quot;]</td>
+	<td>link=Personal Customers</td>
 	<td></td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>xpath=(//a[contains(text(),'17:30')])[2]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>name=_pa</td>
-	<td>label=Premier</td>
-</tr>
-<tr>
-	<td>select</td>
-	<td>id=PRMEARLY|3</td>
-	<td>label=2</td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>name=process</td>
+	<td>link=Sending Mail</td>
 	<td></td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>css=a.OLCT_SelectSeatButton</td>
+	<td>css=a[title=&quot;Standard Post&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=exact:How does it work?</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Letter</td>
 	<td></td>
 </tr>
 <tr>
 	<td>assertTitle</td>
-	<td>Movies-At Dundrum - Movies, Live Events, Opera, Ballet, Schools, Corporate</td>
+	<td>Glossary of Terms</td>
 	<td></td>
 </tr>
 <tr>
 	<td>verifyText</td>
-	<td>//div[@id='main']/div[2]/div/div[2]/div/div/p[4]</td>
-	<td>exact:Rating: 12A</td>
+	<td>//span[@id='RadEditorPlaceHolderControl2']/dl[5]/p[30]</td>
+	<td>Back to index</td>
 </tr>
 
 </tbody></table>
